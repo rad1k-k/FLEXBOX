@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********** FLEXBOX CARDS ***********/
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.card {
+    background: linear-gradient(#e6e464, #1b27a3);
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    background-color: rgb(44, 44, 56);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+    background-image: url(img/project-1.png);
+}
+
+.card-2 {
+    background-image: url(img/project-2.png);
+}
+
+.card-3 {
+    background-image: url(img/project-3.png);
+}
+
+.card-4 {
+    background-image: url(img/project-4.png);
+}
+
+
+.card h2 {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.card p {
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.card a {
+    background: linear-gradient(#352f2f, #121249);
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+
+
+
